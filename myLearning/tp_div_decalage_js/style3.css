@@ -1,0 +1,17 @@
+div{
+    border: solid red 2px;
+}
+
+.col-4{
+    border: blue solid 2px;
+}
+
+.col-12{
+    border: darkblue solid 5px;
+}
+
+.newcontainer{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+}

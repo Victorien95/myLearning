@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TP-09-01-2020</title>
+    <link rel="stylesheet" href="tp-09-01-2020.css">
+</head>
+<body>
+    <div id="test2"><h1>FORMULAIRE INTERACTIF FULL JS</h1></div>
+    <div id="container">
+        <form action="" method="get" class="form-tp" id="form-tp">
+            <label for="myRadio"><input type="radio" id="myRadio" value="Homme" name="sexe" required>Homme</label>
+            <label for="myRadio2"><input type="radio" id="myRadio2" value="Femme" name="sexe" required>Femme</label><br><br>
+            <label for="nom" id="test" >Nom: <input required type="text" class="twochar"><span></span></label><br><br>
+            <label for="prenom" >Prénom: <input required type="text" class="twochar"><span></span></label><br><br>
+            <label for="age">Âge: <input required type="text" id="age"><span></span></label><br><br>
+            <label for="pseudo" >Pseudo: <input required type="text" class="twochar"><span></span></label><br><br>
+            <label for="mdp">Mot de passe: <input required type="password" class="twochar pass"><span></span></label><br><br>
+            <label for="mdpconf">Mot de passe (confirmation): <input required id="passCheck" type="password" class="twochar pass2"><span></span></label><br><br>
+            <label for="selPays">Choisissez votre langue <select required name="selPays" id="selPays">
+                <optgroup label="Pays"></optgroup>
+                <option selected value="france">France</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="angleterre">Angleterre</option>
+                <option value="espagne">Espagne</option>
+            </select><span></span></label>
+                <br><br>
+            <label for="newsletter"><input id="newsletter" type="checkbox" value="true"> Je désire recevoir la newsletter chaque mois.<p id="checkSpan" ></p></label><br><br>
+            <input type="submit" id="mySubmit" class="btn" value="M'inscrire"><input class="btn" type="reset" value="Réinitialiser">
+        </form>
+    </div>
+
+    <script src="tp-09-01-2020.js"></script>
+</body>
+</html>

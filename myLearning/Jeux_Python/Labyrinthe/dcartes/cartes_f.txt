@@ -1,0 +1,3 @@
+dcartes/cartes_facile/carte_1.txt
+dcartes/cartes_facile/carte_2.txt
+dcartes/cartes_facile/carte_3.txt

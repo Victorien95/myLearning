@@ -1,0 +1,50 @@
+span{
+    background: lightcoral;
+    margin: 20px;
+    border-radius: 2px;
+}
+
+#container{
+    background: silver;
+    font-family: Cambria;
+    padding: 30px;
+    border-radius: 10px;
+}
+body{
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+}
+body:nth-child(0){
+    text-align: center;
+}
+
+
+h1{
+    font-family: "Cambria Math";
+}
+
+p{
+    background: limegreen;
+    margin: 0;
+}
+.btn{
+    background: darkcyan;
+    border-radius: 5px;
+    box-shadow: darkcyan;
+    border: 2px solid lightcoral;
+    margin-left: 20px;
+    height: 40px;
+}
+
+#test2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+*:required{
+    border: lightcoral solid 2px;
+
+}

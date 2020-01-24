@@ -1,0 +1,24 @@
+import pickle
+
+compte = {"login": "jambon", "mdp": "jambon", "score": 0}
+
+with open("fichier_des_comptes", "rb") as lecture:
+    mon_unpickle = pickle.Unpickler(lecture)
+    chargement = mon_unpickle.load()
+    print(type(chargement))
+    for i in range(len(chargement)):
+        if compte == chargement[i]:
+            print(chargement[i])
+            indice = i
+            break
+
+print(i)
+
+
+
+
+
+
+
+
+
